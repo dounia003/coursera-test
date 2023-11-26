@@ -1,0 +1,150 @@
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+  
+}
+
+body{
+  font-family:sans-serif;  
+  margin:0;
+  height:100%;
+  min-height:100vh;
+  display: flex; 
+  flex-direction:column; 
+  background-color:#FFF;
+}
+
+.row{
+  width:100%;
+  position:relative;
+}
+
+.our_menu{
+  text-align:center;
+  margin-bottom:35px;
+}
+
+.container{
+ position:relative;
+ top:60px;
+ margin:15px; 
+ margin-right:-150px;
+}
+
+.elements>p{
+  margin-top:20px;
+  margin-top:18px;
+  text-align:justify;
+  font-size:100%;
+  width:200%;
+}
+.elements{
+  position:relative;
+  top:0;
+  background-color:gray;
+  margin:20px 30px;
+  padding:30px;
+  border:5px solid #000;
+  display:flex;
+  overflow:auto;
+  align-items:center;
+  margin-right:auto;
+  margin-bottom:auto;
+}
+
+.elements-name{
+  position:absolute;
+  text-align:center;
+  top:0;
+  right:0;
+  padding:7px 55px;
+  font-weight:bold;
+  font-size:20px;
+  border-left:2px solid #000;
+  border-bottom:2px solid #000;
+}
+
+#Chicken{
+  background-color:#D59898;
+  color:black;
+} 
+
+#Beef{
+  background-color:#C14543;
+  color:white;
+}
+
+#Sushi{
+  background-color:#E5D198;
+  color:black;
+}
+@media (min-width:992px){
+  .col-lg-1,
+  .col-lg-2, 
+  .col-lg-3, 
+  .col-lg-4, 
+  .col-lg-5,
+  .col-lg-6, 
+  .col-lg-7,
+  .col-lg-8, 
+  .col-lg-9,
+  .col-lg-10, 
+  .col-lg-11,
+  .col-lg-12 {
+  float: left;  
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+ 
+}
+@media (min-width:768px) and (max-width:991px){
+  .col-lg-3 {
+    width:50%;
+    float:left;
+  }
+  .col-lg-tablet-view{
+   width:100%;
+   float:left;
+ }
+}
+@media (max-width:767px){
+  .col-lg-3{
+    width:100%;
+    float:left;
+  }
+}
